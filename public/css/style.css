@@ -1,0 +1,110 @@
+body{
+	background-color: #ecf0f5;
+    overflow: scroll;
+}
+
+#header {
+	width: 100%;
+	margin-bottom: 1%;
+	background-color: #000000;
+}
+
+#header h1 {
+	text-align: center;
+	color: #eeeeee;
+}
+
+.main{
+	margin-top: 0px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.graph-view, .hashtags-view {
+	/*padding: 20px 25px;*/
+	width: 100%;
+	height: 500px;
+	margin: 10px 0px;
+	background: #F6F6F6;
+}
+.list-group {
+	height: 417px;
+}
+/*
+ul#hastag-list{
+	list-style: none;
+}
+#hastag-list a{
+	text-decoration: none;
+}
+
+#hastag-list li {
+    margin: 0px;
+    padding: 10px 0px 10px 5px;
+    border-bottom: 1px solid #eee;
+}
+
+#hastag-list li:hover {
+    background: #f6f6f6;
+}
+
+#hastag-list li:last-child {
+    border-bottom: 0px solid #eee;
+}
+*/
+
+#btnCredit {
+	margin-top: 25%;
+}
+
+#cy {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#hashtag-list {
+    overflow: scroll;
+    max-height: 93%;
+}
+
+#btnSearch {
+	margin-left: 10%;
+}
+
+#btnExport {
+	display: none;
+}
+
+#filterContainer {
+	float: right;
+	display: none;
+}
+
+#nbTweetsSlider .slider-selection {
+	background: #BABABA;
+}
+
+#streamingWrapper {
+	height: 20px;
+}
+
+img#graph-export {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btn-sort.btn-order-1 .icon-order-1 {
+    display: none;
+}
+.btn-sort.btn-order-1 .icon-order-0 {
+    display: inline-block;
+}
+.btn-sort.btn-order-0 .icon-order-1 {
+    display: inline-block;
+}
+.btn-sort.btn-order-0 .icon-order-0 {
+    display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
